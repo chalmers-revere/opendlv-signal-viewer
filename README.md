@@ -1,7 +1,7 @@
 ## OpenDLV Microservice to view signals in your web-browser
 
 This repository provides source code to view any signals that are exchanged in a
-running session using OpenDLV.io software ecosystem.
+running session using OpenDLV software ecosystem.
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
@@ -33,7 +33,7 @@ Message Set that are exchanged in a running OpenDLV.io session (running at
 111 in the example), simply run it as follows:
 
 ```
-docker run --rm --net=host chalmersrevere/opendlv.io-amd64:signal-viewer-v0.0.1 111
+docker run --rm --net=host chalmersrevere/opendlv.io-amd64:signal-viewer-v0.0.1 --cid=111
 ```
 
 Now, simply point your web-browser to the IP address and port 8080 where you
