@@ -27,13 +27,14 @@ No dependencies! The following dependencies are part of the source distribution:
 This microservice is created automatically on changes to this repository via
 Docker's public registry for:
 * [x86_64](https://hub.docker.com/r/chalmersrevere/opendlv-signal-viewer-amd64/tags/)
+* [armhf](https://hub.docker.com/r/chalmersrevere/opendlv-signal-viewer-armhf/tags/)
 
 To use this microservice for viewing any messages from the OpenDLV Standard
 Message Set that are exchanged in a running OpenDLV.io session (running at
 111 in the example), simply run it as follows:
 
 ```
-docker run --rm --net=host -p 8080:8080 chalmersrevere/opendlv-signal-viewer-amd64:v0.0.2 --cid=111
+docker run --rm --net=host -p 8080:8080 chalmersrevere/opendlv-signal-viewer-multi:v0.0.3 --cid=111
 ```
 
 Now, simply point your web-browser to the IP address and port 8080 where you
