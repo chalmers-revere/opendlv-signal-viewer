@@ -3,13 +3,13 @@
 VERSION=$1
 
 cat <<EOF >/tmp/multi.yml
-image: chalmersrevere/opendlv-signal-view-multi:$VERSION
+image: chalmersrevere/opendlv-signal-viewer-multi:$VERSION
 manifests:
-  - image: chalmersrevere/opendlv-signal-view-amd64:$VERSION
+  - image: chalmersrevere/opendlv-signal-viewer-amd64:$VERSION
     platform:
       architecture: amd64
       os: linux
-  - image: chalmersrevere/opendlv-signal-view-armhf:$VERSION
+  - image: chalmersrevere/opendlv-signal-viewer-armhf:$VERSION
     platform:
       architecture: arm
       os: linux
