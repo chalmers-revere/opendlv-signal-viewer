@@ -34,7 +34,7 @@ Message Set that are exchanged in a running OpenDLV.io session (running at
 111 in the example), simply run it as follows:
 
 ```
-docker run --rm --net=host -p 8080:8080 chalmersrevere/opendlv-signal-viewer-multi:v0.0.5 --cid=111
+docker run --rm --net=host -p 8080:8080 chalmersrevere/opendlv-signal-viewer-multi:v0.0.6 --cid=111
 ```
 
 Now, simply point your web-browser to the IP address and port 8080 where you
