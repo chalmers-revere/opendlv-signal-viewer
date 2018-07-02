@@ -20,7 +20,7 @@ No dependencies! The following dependencies are part of the source distribution:
 * [jQuery 3.2.1](https://code.jquery.com/jquery-3.2.1.slim.min.js)
 * [moment 2.20.1](moment-with-locales.min.js)
 * [popper 1.12.9](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js)
-* [libcluon.js 0.0.97](https://github.com/chrberger/libcluon) - [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+* [libcluon.js 0.0.102](https://github.com/chrberger/libcluon) - [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 
 ## Usage
@@ -34,7 +34,7 @@ Message Set that are exchanged in a running OpenDLV.io session (running at
 111 in the example), simply run it as follows:
 
 ```
-docker run --rm --net=host -p 8080:8080 chalmersrevere/opendlv-signal-viewer-multi:v0.0.7 --cid=111
+docker run --rm --net=host -p 8080:8080 chalmersrevere/opendlv-signal-viewer-multi:v0.0.8 --cid=111
 ```
 
 Now, simply point your web-browser to the IP address and port 8080 where you
